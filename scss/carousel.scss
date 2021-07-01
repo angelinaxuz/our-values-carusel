@@ -1,0 +1,45 @@
+.carousel-image {
+  background-size: cover;
+  height: 990px;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  margin-bottom: -40px;
+}
+
+.carousel-text {
+
+  &__title {
+    font-size: 32px;
+    font-weight: 400;
+    font-family: $primary-font;
+    line-height: 2rem;
+    color: $primary;
+  }
+
+  &__item {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    position: relative;
+  }
+
+  &__text-item {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.4rem;
+    color: $text;
+    margin-right: 15px;
+    width: 33%;
+
+    span {
+      font-size: 40px;
+      font-weight: 300;
+      line-height: 2.5rem;
+      color: $primary;
+      float: left;
+      padding-right: 15px;
+      padding-top: 7px;
+
+    }
+  }
+}
